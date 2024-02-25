@@ -24,7 +24,7 @@ body {
     margin-left: 20px;
     margin-bottom: 20px;
     background: #06000f;
-    border: 5px solid gray;
+    border: 5px solid ;
     
   }
 
@@ -61,6 +61,11 @@ body {
 
   .top-section{
     display: flex;
+    gap: 0px;
+  }
+
+  .mid-section{
+    display: flex;
     gap: 20px;
   }
   .about-me {
@@ -68,5 +73,9 @@ body {
     width: 350px;
     text-align: center;
     height: 160px;
+  }
+
+  .experience{
+    margin-top: 50px;
   }
 
